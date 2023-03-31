@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ZakkShaneAventurado</title>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+<header>
+  <nav class="headcontain">
+
+    <img class="logo1" src="logo.png" alt="" width="100px" height="100px">
+    <ul>
+      
+      <li><a href="#sec1">Home</a></li>
+      <li><a href="#sec2">My Project</a></li>
+      <li><a href="#sec3">About Me</a></li>
+      <li><a href="#sec4">Contact Me</a></li>
+    </ul>
+    
+   <img class="logo" src="Menu.png" alt="" >
+
+   <div id="menubar">
+           
+    <div class="insidemenu" >
+
+     
+      <h1 class="myProject">My Project</h1>
+      <h1 class="myProject1" style="display:none;" onclick ="Figma()"> FIGMA </h1>
+      <h1 class="myProject1" style="display:none;" onclick="window.location.href='Figma.html'"> CANVA </h1>
+      <h1 class="myProject1" style="display:none;" onclick="redirect()"> HTML/CSS</h1>
+      <h1 class="myProject1" style="display:none;"> ARTS  </h1>
+
+
+
+
+      
+      <h1 class="Contactme">Contact Me</h1>
+
+      <h1 class="contactme1" style="display:none;" onclick="redirectfacebook()"> FACEBOOK </h1>
+      <h1 class="contactme1" style="display: none;" onclick="redirectinstagram()"> INSTAGRAM </h1>
+      <h1 class="contactme1" style="display: none;" onclick="redirectgoogle()"> GOOGLE</h1>
+      <h1 class="contactme1" style="display: none;" onclick="redirectgithub()"> GITHUB</h1>
+
+      <h1 onclick="toggleDiv()">Go back</h1>
+
+    
+    </div>
+     
+  </nav>
+
+  
+</header>
+
+<section id="sec1">
+  
+  <h1 class="intro1">
+    Hi <span class="wave">👋 </span>I am Zakk Shane T. Aventurado
+  </h1>
+  <p class="sample">I am a  Frontend Developer / Graphic Designer</p>
+  
+</section>
+
+
+
+
+<section id="sec2">
+
+  <h1>My Project</h1>
+<div class="gallery">
+ <div class="box box1">
+  <div class="clickme">
+    <h1 id="clicked">Visit My Work</h1>
+  </div>
+  <img src="kapoy na.jpg" alt="" class="box1img">
+  <div class="intro">
+    <h1> Art Works </h1>
+    <p> I will draw / Anime / Vector / Character / for you </p>
+  </div>
+  
+ </div>
+
+
+ <div class="box box2">
+<div class="clickme">
+<h1>Visit Website</h1>
+</div>
+<img src="Redtree1.png" alt="" class="box1img">
+<div id = "clicked" class="intro" onclick="redirect()">
+  <h1> Web Design  </h1>
+  <p> I will Create / Design a Responsive Website </p>
+</div>
+ </div>
+
+
+ <div class="box box3">
+  <div class="clickme">
+  <h1>Visit My Work</h1>
+  </div>
+  <img src="FIGMA.png" alt="" class="box1img" width="600px">
+  <div class="intro" onclick="Figma()">
+    <h1> Figma </h1>
+    <p> I will Design / Prototype using Figma  </p>
+  </div>
+   </div>
+
+
+
+
+
+<div class="box box4">
+  <div class="clickme">
+  <h1>Visit My Work</h1>
+  </div>
+  <img src="Canva.png" alt="" class="box1img" width="600px">
+  <div class="intro" onclick="">
+    <h1> Canva </h1>
+    <p> I will Design / Edit Pictures / Advertise using Canva  </p>
+  </div>
+   </div>
+
+
+</section>
+
+
+
+<section id="sec3">
+
+
+<div class="sec3contain">
+
+
+
+<div class="insidesec3">
+
+  <img src="Zakk.jpeg" alt="" srcset="" width="400px">
+  <div class="wordinsec3">
+    <h1 class="sample1"> Zakk Shane Aventurado</h1>
+    <p class="sample">I am a BSIT student from Cebu,  I have 1 year  experience on HTML, CSS, Figma , Canva </p>
+
+    <button onclick = "downloadFile()">
+      <img src="download.png" alt="" width="15px">
+      Download Resume
+    </button>
+  </div>
+  
+
+  
+</div>
+
+</div>
+
+
+
+</section>
+
+<script>
+  function downloadFile() {
+  // Create a link element with the href set to the URL of the Word file
+  var link = document.createElement("a");
+  link.href = 'Zakk-RESUME.doc';
+  
+  // Set the download attribute to give the file a name
+  link.download = "Zakk-RESUME.doc";
+  
+  // Simulate a click on the link to start the download
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
+</script>
+
+
+<section id="sec4">
+
+ 
+
+  <div class="containsec4">
+
+
+
+
+<div class="logosec4">
+  <span><a onclick= "redirectfacebook()">https://www.facebook.com/zakkshane.aventurado.3</a></span>
+  <h1>Facebook</h1>
+
+</div>
+
+<script>
+  function redirectfacebook() {
+    window.open("https://www.facebook.com/zakkshane.aventurado.3", "_blank");
+  }
+
+  function Figma(){
+    window.open("https://www.figma.com/file/9HLiDS2OSzXXXkIbUM2RH6/Scholarship-Seeker?t=njbX4HQJfLGdx2tX-1");
+  }
+</script>
+
+<div class="logosec4">
+  <span><a onclick= "redirectinstagram()">https://www.instagram.com/zekke017/</a></span>
+  <h1 onclick="redirectinstagram()">Instagram</h1>
+</div>
+
+<script>
+  function redirectinstagram() {
+    window.open("https://www.instagram.com/zekke017/", "_blank");
+  }
+</script>
+
+<div class="logosec4">
+  <span><a onclick= "redirectgoogle()">midzaker2316@gmail.com</a></span>
+  <h1 onclick="redirectgoogle()">Google</h1>
+</div>
+
+<script>
+  function redirectgoogle() {
+    window.open("https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKjDNHLLBmlRQWdRVQQzZPkjVjHpjHJhFVBwxbHFVRvCBrFcVlrlRVTNtJbGJKVLfXrZfTr", "_blank");
+  }
+</script>
+
+<div class="logosec4">
+  <span><a onclick= "redirectgithub()">https://github.com/MidZaker</a></span>
+  <h1>Github</h1>
+</div>
+
+
+<script>
+  function redirectgithub() {
+    window.open("https://github.com/MidZaker", "_blank");
+  }
+</script>
+
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+<script>   // kani na script kay katong para sa menu bar whenever mag click ang user mo display ug flex else mo display ug none 
+// pero tungod anang i<images.length; i++  morag sa click guro na sa user if mo lapas ug 1? mo
+// fucntion sya? HAHAHAHAHA! just kill me lol
+
+let divDisplay = "none";
+
+
+const toggleDiv = () => {
+    const div = document.getElementById("menubar");
+    if (div.style.display === "none") {
+      div.style.display = "flex";
+    } else {
+      div.style.display = "none";
+    }
+};
+
+const images = document.getElementsByClassName("logo");
+
+for (let i = 0; i < images.length; i++) {
+    images[i].addEventListener("click", toggleDiv);
+}
+
+</script>
+
+<script> // kani na function is sa menu bar ni which is mo naog ang ubos kung unsay sud atong my project
+// na ako ge display hide and ge call ang my project na class na e show sya instead na naka hide!
+
+const heading = document.getElementsByClassName("myProject")[0];
+const others = document.getElementsByClassName("myProject1");
+const contactothers1 = document.getElementsByClassName("contactme1");
+
+heading.addEventListener("click", function() {
+    for (let i = 0; i < others.length; i++) {
+        if(others[i].style.display === "none"){
+            others[i].style.display = "block";
+            for (let j = 0; j < contactothers1.length; j++) {
+                contactothers1[j].style.display = "none";
+            }
+        }else{
+            others[i].style.display = "none";
+        }
+    }
+});
+
+</script>
+
+
+<script> // kani na function is sa menu bar ni which is mo naog ang ubos kung unsay sud atong my project
+  // na ako ge display hide and ge call ang my project na class na e show sya instead na naka hide!
+  
+  const headcontact = document.getElementsByClassName("Contactme")[0];
+  const contactothers = document.getElementsByClassName("contactme1");
+  const heading1 = document.getElementsByClassName("myProject1");
+  
+  headcontact.addEventListener("click", function() {
+      for (let i = 0; i < contactothers.length; i++) {
+          if(contactothers[i].style.display === "none"){
+              contactothers[i].style.display = "block";
+              for (let j = 0; j < heading1.length; j++) {
+                heading1[j].style.display = "none";
+            }
+        }else{
+            contactothers[i].style.display = "none";
+        }
+    }
+  });
+  
+  
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  
+
+
+</script>
+
+
+<script> // sample script for going website when the user click the function on the elements!
+  function redirect() {
+    window.open("https://midzaker.github.io/ZakkShaneAventurado-RedTree/Zakk.html", "_blank");
+  }
+</script>
+
+<script>ScrollReveal({reset: true,
+  distance: '50px',
+  duration: 2500,
+  delay: 400
+});
+
+ScrollReveal().reveal('.intro1', {delay:400, orignal: 'bottom'});
+ScrollReveal().reveal('.sample', {delay:500, orignal: 'bottom'});
+ScrollReveal().reveal('.sample1', {delay:600, origin: 'bottom'});
+ScrollReveal().reveal('box4', {delay:700, origin: 'bottom'});
+ScrollReveal().reveal('', {delay:500, origin: 'bottom'});
+
+//sample code sa javascript which is katong scrolling reveal! //
+
+  </script>
+
+</html>

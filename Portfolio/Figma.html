@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Figma.css">
+</head>
+<body>
+    
+
+    <header>
+        <nav class="headcontain">
+      
+          <img class="logo1" src="/Portfolio/logo.png" alt="" width="100px" height="100px">
+          <ul>
+            
+            <li><a href="#video-section">Home</a></li>
+            <li><a href="#Mysample">My Samples</a></li>
+            <li><a onclick="window.location.href='porftolio.html'">Go Back</a></li>
+            
+          </ul>
+          
+         <img   id="logo"  src="Menu.png" alt="My Image" >
+      
+         <div id="menubar">
+           
+              <div class="insidemenu" >
+
+                <h1>Home</h1>
+                <h1>My Sample</h1>
+                <h1 onclick= "window.location.href='porftolio.html'">Go back</h1>
+
+              
+              </div>
+         
+         </div>
+           
+        </nav>
+      
+        
+      </header>
+
+      <section id="video-section">
+        <video width="500px" height="500px" autoplay loop muted>
+          <source src="Your paragraph text (Presentation (169)).mp4" type="video/mp4">
+          <source src="Your paragraph text (Presentation (169)).mp4" type="video/ogg">
+         
+        </video>
+
+
+        <script>
+          document.getElementById("video_section").play();
+        </script>
+      </section>
+
+      <section id="Mysample">
+
+        <div class="container">
+
+            <img src="Canva.png" width="700px" height="500px">
+           
+            <div class="wordslist">
+              <h1>Designing in Canva has become a popular trend among teams due to its
+                 user-friendly interface and vast collection of templates, graphics, and other 
+                 design elements. With Canva, teams can easily collaborate on design projects and
+                  create professional-looking visuals for a variety of purposes, such as social
+                   media posts, flyers, presentations, and more. </h1>
+            </div>
+            
+
+
+        </div>
+
+
+
+      </section>
+
+
+
+
+      
+
+<script>
+
+//script function para sa menubar if i click the iamge the opacity on the css mo change //
+
+var img = document.getElementById("logo");
+    var div = document.getElementById("menubar");
+    
+
+    img.addEventListener("click", function() {
+        if (div.style.transform === "translateX(100%)") 
+         {
+            div.style.transform = "translateX(0%)";
+        } else 
+        {
+            div.style.transform = "translateX(100%)";
+        }
+    });
+
+</script>
+
+
+</body>
+</html>

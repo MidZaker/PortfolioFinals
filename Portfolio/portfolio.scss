@@ -1,0 +1,1138 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Rubik+Distressed&display=swap');
+*{
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-right: 0%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+  overflow-x: hidden;
+   
+   
+}
+
+
+@media (max-width: 1300px){
+
+    #sec2{
+
+
+        
+    }
+    
+ #sec1{
+    
+
+    h1{
+        font-size: 40px;
+
+      
+    }
+ }
+
+
+
+   .headcontain{
+
+    a{
+        display: none;
+    }
+
+  
+}
+}
+
+@media screen and (max-width:800px){
+
+
+
+        .insidesec3{
+           
+           height: 50px !important;
+            background-color: rgb(246, 239, 239);
+
+
+            h1{
+               color: white;
+            }
+        }
+      
+
+    #sec2{
+        height: 220vh !important;
+
+
+
+        h1{
+            font-size: 2em !important;
+        }
+
+        .gallery {
+            height: 200vh !important;
+            overflow-y: hidden;
+
+            .box{
+                overflow-y: hidden;
+                height: 400px !important;
+                width: 300px !important;
+
+
+                .intro{
+
+                    h1{
+                        font-size: 15px !important;
+                    }
+
+                    p{
+                        font-size: 10px !important;
+                    }
+                }
+            }
+        }
+    }
+
+   
+ 
+     
+
+
+
+
+
+
+    .headcontain{
+
+        .logo{
+            margin-top: 2em !important;
+            height: 50px !important;
+            width: 40px !important;
+            display: block !important; 
+        }
+
+
+        #menubar{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(0, 0, 0);
+            position: fixed !important;
+            right: 0;
+            z-index: 1;
+            display: none;
+            transition: 0.4s;
+
+
+            .insidemenu{
+
+
+                .contactme1{
+
+                    font-size: 10px;
+                }
+                
+                .myProject1{
+              
+                    font-size: 10px ;
+                }
+
+                h1{
+                    display: block ;
+                }
+            }
+
+
+        }
+    }
+
+
+    
+
+
+    .logo1{
+        
+        display: none;
+    }
+
+    #sec2{
+        
+        h1{
+         
+            font-size: 2.5em;
+        }
+    }
+
+   
+   #sec1{
+    
+    h1{
+        text-align: center;
+        font-size: 25px !important;
+       
+    }
+
+    .sample{
+     color: rgb(0, 0, 0);
+     
+    }
+   p{
+    font-size: 15px !important;
+   }
+    
+}
+
+.box{
+    
+
+
+
+  .clickme{
+    
+    h1{
+        font-size: 25px !important;
+    }
+  }
+
+    p{
+        font-size: 12px;
+    }
+}
+
+}
+
+
+
+
+
+.hide{
+
+    display: none;
+}
+
+
+section{
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: center;
+}
+
+
+body{
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    z-index: 2;
+   position: fixed;
+   width: 100%;
+    background-color:rgb(251, 249, 249);
+  
+
+    .headcontain{
+     
+
+        #menubar{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(0, 0, 0);
+            position: fixed !important;
+            z-index: 1;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            transition: 0.4s ease-in !important;
+           
+
+
+
+            .insidemenu{
+                height: 100%;
+                width: 100%;
+                background-color: rgb(0, 0, 0);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+
+
+                .contactme1{
+
+
+                    h1{
+
+                        gap: 0em;
+                        font-size: 10px;
+                        display: none;
+                    }
+                }
+
+
+              
+
+                .myProject1{
+                   
+                    
+                
+
+                    h1{
+                        gap: 0em;
+                        font-size: 10px;
+                        display: none;
+                    }
+                  
+                   
+                }
+
+               
+               
+                gap: 5em;
+                
+                h1{
+                    text-align: center;
+                   cursor: pointer;
+                    margin: 0;
+                    transition: 0.5s ease-in;
+                    display: block;
+                   
+                }
+
+               
+                h1:hover{
+
+                    color: rgb(243, 154, 154);
+                    transition: 0.5s ease-in;
+                }
+
+            }
+        }
+
+
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        justify-content: space-between;
+        height: 120px;
+
+        h1{
+            margin-left: 20%;
+            color:white;
+            z-index: 1;
+            margin-top: 0.9em;
+        }
+
+  
+
+
+        .logo1{ 
+            margin-top: 0.5em;
+            margin-left: 10%;
+            display: block;
+            z-index: 3;
+        }
+
+        .logo{
+            
+            margin-top:  1em;
+            margin-right: 5%;
+            display: none;
+            width: 100px;
+            height: 100px;
+            z-index: 5;
+        }
+
+
+
+ul{
+    
+    margin-top: 2.5em;
+    display: flex;
+    white-space: nowrap ;
+    list-style: none;
+    gap: 2em;
+    margin-right: 5%;
+
+    li{
+       
+        color: white;
+        font-size: 1.5em;
+        
+
+        a{
+            position: relative;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+    }
+
+    }
+
+ 
+
+
+}
+
+a:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    left: 0%;
+    width: 0%;
+    background-color: rgb(252, 252, 252);
+    transition: 0.5s;
+    border-radius: 2em;
+}
+
+}
+
+a:hover:before{
+    width: 100%;
+}
+
+.sample::before,
+.sample::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+}
+
+.sample::before{
+background-color: rgb(251, 248, 248);
+animation: typewriter 4s  steps(45) forwards;
+}
+
+@keyframes typewriter {
+    0%{
+       
+        left: 0%;
+    }
+
+    100%{
+     
+        left: 100%;
+    }
+    
+}
+
+@keyframes blink {
+
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+    
+}
+
+
+
+.sample::after{
+    width: 0.5%;
+    background-color: black;
+    animation: typewriter 4s  steps(45) forwards, 
+    blink 0.7s infinite;
+
+}
+
+
+
+
+
+#sec1{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(251, 251, 251);
+    height: 110vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 0;
+
+
+    .sample{
+            width: max-content;
+            position: relative;
+            text-align: center;
+            font-style: italic;
+            font-size: 2em;
+            text-align: center;
+            flex-wrap: wrap;
+       
+
+    }
+    
+    h1{
+
+
+        text-align: center;
+        font-size: 3em;
+        z-index: 1;
+        
+    }
+
+
+
+    }
+
+    // add clamp on fonts so mo adjust siya inig gamay sa screen gamit siya in future purposese//
+  
+
+   
+@media  screen and(min-width: 1400px) {
+
+    .headcontain{
+
+        #menubar{
+            display: none !important;
+        }
+    }
+    
+}
+
+
+@media  screen and (max-width: 1400px){
+
+
+
+
+
+    .headcontain{
+
+       
+
+        .logo{
+            margin-top: 2em !important;
+            height: 50px !important;
+            width: 40px !important;
+            display: block !important; 
+        }
+
+
+        .contactme1{
+            font-size: 12px;
+            
+            h1{
+                gap: 1em;
+            }
+        }
+
+
+        .myProject1{
+            font-size: 15px;
+        }
+
+
+       h1{
+        display: block; 
+
+       }
+
+
+       a{
+        display: none;
+       }
+    }
+
+
+    #sec3{
+      height: 100vh !important;
+       .sec3contain{
+        justify-content: center !important;
+        height: 120vh !important;
+        
+
+        .insidesec3{
+            width: 90vw !important;
+            height: 90vh !important;
+            flex-shrink: 0;
+            margin: 0px !important;
+            background-color: rgb(255, 255, 255)!important;
+            flex-grow: 1;
+            flex-direction: column;
+            display: flex;
+
+
+            .wordinsec3{
+
+                height: 200px   !important;
+            }
+
+
+
+            h1{
+                color: black;
+
+                p{
+                    color:black;
+                }
+            }
+        }
+       }
+
+    }
+
+
+    #sec2{
+
+        .gallery{
+
+
+            .intro{
+
+                h1{
+                    font-size: 15px;
+                    
+                }
+                p{
+                    font-size: 10px;
+                }
+            }
+
+            flex-grow: 0 !important;
+            flex-wrap: none;
+
+
+            .clickme{
+                
+                h1{
+                    font-size: 25px;
+                }
+            }
+
+            .box{
+                flex-basis: 400px !important;
+                height: 300px !important;
+                margin: 0;
+                margin-top: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+
+
+}
+
+
+
+
+#sec2{
+    height: 170vh;
+    background-color: rgb(9, 9, 9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    h1{
+        font-size: 4em;
+        color: white;
+    }
+
+    .gallery{
+        
+        overflow-x: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(6, 6, 6);
+        width: 80vw;
+        height: 120vh;
+        flex-wrap: wrap;
+        
+
+
+
+
+        .box{
+            overflow-x: hidden;
+            overflow-y: hidden;
+            margin-top: 5px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 5px; 
+            border: 0.3px solid white;
+            flex-wrap: wrap;
+            flex-grow: 0;
+            flex-basis: 600px;
+
+
+
+            .clickme{
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                opacity:0;
+                background-color: rgb(9, 9, 9);
+                
+
+                h1{
+                    color: rgb(255, 253, 253) !important;
+                    transition: 0.5s;
+                }
+            }
+
+            
+         
+
+        }
+
+        .box1{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            width: 600px;
+            position: relative;
+            background-size: cover;
+            transition: 0.5s;
+
+            .box1img{
+                transition: 0.5s;
+            }
+
+        
+        }
+
+        .box:hover{
+
+            cursor: default;
+
+            .clickme:hover{
+                h1{
+                    color: rgb(255, 255, 255) !important;
+                }
+            }
+
+            .clickme{
+                opacity: 1;
+            }
+            
+                .box1img{
+                    transition: 0.9s;
+                    transform:scale(1.5);
+                    opacity: 0.5;
+                  
+                }
+        
+
+
+            .intro{
+             
+                cursor: pointer;
+                flex-wrap: wrap;
+                transform: translateY(0px);
+               
+
+                .intro:hover{
+                    opacity: 0.5;
+                }
+
+                h1{
+                    
+                    p{
+                        font-style: italic
+                    }
+                }
+            }
+
+        }
+
+        .intro{
+            bottom: 0;
+            position: absolute;
+            background-color: white;
+            width: 100%;
+            transition: 0.5s;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transform: translateY(200px);
+            height: 15vh;
+          
+             
+            h1{
+                transition: 0.5s;
+                font-size: 20px;
+                color: black;
+               
+
+                p{
+                    word-break: break-all;
+                    font-style: italic;
+                }
+            }
+        }
+
+    
+
+       
+        
+    }
+
+  
+        .box2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            width: 600px;
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url(Redtree1.png);
+            transition: 0.5s;
+            opacity: 0.9;
+        
+         
+
+            .box1img{
+                
+                transition: 0.5s;
+                box-shadow: 5px 5px 10px rgb(1, 1, 1);
+            }
+
+            .clickme{
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                opacity:0;
+
+                h1{
+                    transition: 0.5s;
+
+
+                }
+            }
+            
+        }
+
+        .box3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            width: 600px;
+            position: relative;
+            background-size: cover;
+            background-image: url(FIGMA.png);
+            transition: 0.5s;
+
+
+
+
+            
+        
+         
+
+            .box1img{
+              
+                transition: 0.5s;
+                box-shadow: 5px 5px 10px rgb(87, 87, 87);
+            }
+
+            .clickme{
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                opacity:0;
+
+                h1{
+                    transition: 0.5s;
+
+
+                }
+            }
+        }
+
+
+
+
+        
+        .box4{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            width: 600px;
+            position: relative;
+            background-size: cover;
+            background-image: url(Canva.png);
+           
+
+         
+
+            .box1img{
+              
+                transition: 0.5s;
+                box-shadow: 5px 5px 10px rgb(87, 87, 87);
+              
+            }
+
+            .clickme{
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                opacity:0;
+
+                h1{
+                    transition: 0.5s;
+
+
+                }
+            }
+        }
+    }
+
+
+    #sec3 {
+
+        width: 100%;
+        height: 120vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-y: hidden;
+
+
+     
+        .sec3contain{
+
+            height: 120vh;
+            width:  100vw;
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            
+          
+        
+
+
+          
+            
+
+
+
+            .insidesec3{
+             
+                height: 110vh;
+                width:  90vw;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+                flex-grow: 1;
+
+
+
+
+                .wordinsec3{
+                    margin-left: 20px;
+                    display: flex;
+                    width: 700px;
+                    height: 600px;
+                    justify-content: center;
+                    text-align: center;
+                    flex-direction: column;
+                }
+
+                h1{
+                  
+                    text-align: center;
+                    
+                }
+              
+
+
+                p{
+                    
+                    text-align: center;
+                      animation: typewriter 2s  steps(3) forwards;
+    
+                }
+            }
+
+        }
+
+    }
+
+
+
+        #sec4{
+            height: 60vh;
+            width: 100vw;
+         display: flex;
+            background-color: rgb(0, 0, 0);
+          
+
+
+
+            .containsec4{
+                background-color: rgb(8, 8, 8);
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+               
+                
+               
+
+
+
+                .logosec4{
+                    display: flex;
+                    
+                    flex-direction: column;
+                    margin-top: 3em;
+                    align-items: center;
+                    justify-content: center;
+                    justify-content: flex-start;
+                    overflow-y: visible;
+                 
+               
+              
+
+
+                    a:hover{
+                        color: rgb(255, 133, 133);
+                    }
+                    
+
+                    h1{
+                        overflow-y: hidden;
+                      
+                       
+                        color: rgb(255, 255, 255);
+                        padding-bottom: 20px;
+
+                    }
+                        
+                        a{
+                            overflow-y: hidden;
+                            text-decoration: none;
+                            color: white;
+                            cursor: pointer;
+                            
+                            transition: 0.4s;
+                        }
+
+
+                        span{
+                            overflow-y: hidden;
+                            font-size: 20px;
+                            
+                           
+                        }
+                    }
+                
+            }
+
+        }
+
+        @media screen and(max-width:600px) {
+
+
+            #sec4{
+                height: 60vh;
+                width: 100vw;
+             display: flex;
+                background-color: rgb(0, 0, 0);
+              
+    
+    
+    
+                .containsec4{
+                    background-color: rgb(8, 8, 8);
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                   
+                    
+                   
+    
+    
+    
+                    .logosec4{
+                        display: flex;
+                        
+                        flex-direction: column;
+                        margin-top: 3em;
+                        align-items: center;
+                        justify-content: center;
+                        justify-content: flex-start;
+                        overflow-y: visible;
+                     
+                   
+                  
+    
+    
+                        a:hover{
+                            color: rgb(255, 133, 133);
+                        }
+                        
+    
+                        h1{
+                            overflow-y: hidden;
+                            font-size: 15px;
+                           
+                            color: rgb(255, 255, 255);
+                          
+    
+                        }
+                            
+                            a{
+                                overflow-y: hidden;
+                                text-decoration: none;
+                                color: white;
+                                cursor: pointer;
+                                
+                                transition: 0.4s;
+                            }
+    
+    
+                            span{
+                                overflow-y: hidden;
+                                font-size: 10px;
+                                
+                               
+                            }
+                        }
+                    
+                }
+    
+            }
+            
+        }
